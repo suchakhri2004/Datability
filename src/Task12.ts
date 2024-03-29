@@ -5,6 +5,8 @@ function intToRoman(num: number): string {
 
     for (let i = 0; i < values.length; i++) {
         while (num >= values[i]) {
+            console.log(i);
+            
             result += symbols[i];
             num -= values[i];
         }
@@ -14,5 +16,3 @@ function intToRoman(num: number): string {
 }
 
 console.log(intToRoman(3)); // Output: "III"
-console.log(intToRoman(58)); // Output: "LVIII"
-console.log(intToRoman(1994)); // Output: "MCMXCIV"
