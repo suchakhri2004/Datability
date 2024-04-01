@@ -38,5 +38,4 @@ function candy(ratings: number[]): number {
 console.log('count ===>', candy([1,3,4,5,2]));
 
 
-// 1 2 3 1 3 2 1
 //ลูกอมต้องมากกว่าคนข้างๆที่ ratings น้อยกว่าเสมอ ลูกอมเท่ากับ คนข้างๆ +1
